@@ -30,6 +30,7 @@ public class UmrechnerActivity extends Activity {
 		}
 	}
 	public void Loeschen(View view){
+
 		TextView text = (TextView) findViewById(R.id.textView1);
 		text.setText("");
 		//add a comment
