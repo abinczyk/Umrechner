@@ -30,13 +30,11 @@ public class UmrechnerActivity extends Activity {
 		}
 	}
 	public void Loeschen(View view){
-
 		TextView text = (TextView) findViewById(R.id.textView1);
 		text.setText("");
 		//add a comment
 		EditText wert = (EditText) findViewById(R.id.editText1);
 		wert.setText("");
-		
 	}
 	public double umrechnenZentimeterinZoll(double zentimeter){
 		return (zentimeter *0.3937);
