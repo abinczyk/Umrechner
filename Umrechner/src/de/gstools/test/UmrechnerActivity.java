@@ -32,7 +32,11 @@ public class UmrechnerActivity extends Activity {
 	public void Loeschen(View view){
 		TextView text = (TextView) findViewById(R.id.textView1);
 		text.setText("");
+<<<<<<< HEAD
 		
+=======
+		//add a comment
+>>>>>>> f301489... Signed-off-by: abinczyk <andreas.binczyk@gmail.com>
 		EditText wert = (EditText) findViewById(R.id.editText1);
 		wert.setText("");
 		
