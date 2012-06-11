@@ -16,6 +16,7 @@ public class UmrechnerActivity extends Activity {
 	}
 
 	public void umRechnen(View view){
+
 		TextView text = (TextView) findViewById(R.id.textView1);
 		RadioButton zoll = (RadioButton) findViewById(R.id.radio1);
 		EditText wert = (EditText) findViewById(R.id.editText1);
@@ -28,6 +29,7 @@ public class UmrechnerActivity extends Activity {
 			double cm_conv = umrechnenZollinZentimeter(d);
 			text.setText(Double.toString(cm_conv));
 		}
+	
 	}
 	
 	public void Loeschen(View view){
